@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.db
+*.sqlite3
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv (API keys & config)
+.env
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# Bytecode & cache
+*.pyc
+.cache/
+.mypy_cache/
+pytest_cache/
+__pypackages__/
+
+# Mac/Linux files
+*.~*
+*~
+
+# Pylint/mypy
+.pytest_cache/
+.coverage
+.tox/
+coverage.xml
+
+# GitHub Actions (optional)
+.github/workflows/*.log
