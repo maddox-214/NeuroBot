@@ -29,25 +29,6 @@ An intelligent, multi-user Discord bot powered by **OpenAI’s GPT-4o**, designe
 | `Docker`      | Containerized deployment        |
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/chatgpt-discord-bot.git
-cd chatgpt-discord-bot
-
-Create a .env File
-DISCORD_TOKEN=your-discord-bot-token
-OPENAI_API_KEY=your-openai-api-key
-
-Install Dependencies
-pip install -r requirements.txt
-
-Run the Bot
-python bot/main.py
-
 💬 Bot Commands
 Command	Description
 !ask <message>	Ask GPT-4o a question.
@@ -74,3 +55,22 @@ Tokens/day	10,000
 Messages/day	100
 
 (Limits can be changed in services/rate_limiter.py)
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/chatgpt-discord-bot.git
+cd chatgpt-discord-bot
+
+Create a .env File
+DISCORD_TOKEN=your-discord-bot-token
+OPENAI_API_KEY=your-openai-api-key
+
+Install Dependencies
+pip install -r requirements.txt
+
+Run the Bot
+python bot/main.py
+
